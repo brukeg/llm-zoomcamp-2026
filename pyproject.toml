@@ -17,4 +17,10 @@ dependencies = [
     "psycopg[binary]>=3.3.4",
     "tqdm>=4.68.1",
     "pandas>=3.0.3",
+    "streamlit>=1.59.2",
+]
+
+[tool.uv.workspace]
+members = [
+    "05-monitoring",
 ]
