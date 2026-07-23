@@ -38,4 +38,4 @@ def save_conversation(record, question, course):
         conn.commit()
     finally:
         conn.close()
-    return conversation_id
+    return 
